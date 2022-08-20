@@ -1,0 +1,61 @@
+.containerBox {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.PanelBox {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background: url("../../img/imgProfileUser2.webp") no-repeat center center;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nameUser {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    line-height: 1;
+}
+.pictureUser {
+    margin: 0 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.principalBox {
+    width: 100%;
+    padding: 0 30px 0 30px;
+}
+.secondBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.RadarBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.scoreBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.scoreItem {
+    font-size: 1rem;
+    text-align: start;
+    width: 250px;
+}
+

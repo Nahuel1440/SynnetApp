@@ -1,0 +1,25 @@
+.PanelBox {
+    width: 20%;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(43, 43, 44);
+    background-size: cover;
+    background-attachment:scroll;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    margin-top: 80px;
+    color: #bebebe;
+}
+
+.Filter_btn_admin {
+    display: flex;
+    justify-content: center;
+    min-height: 10px;
+    width: 18vw;
+    padding: 10px;
+}

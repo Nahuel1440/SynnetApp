@@ -4,29 +4,16 @@ module.exports = (sequelize) => {
     // defino el modelo
     sequelize.define('match', {
         id_match: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.BIGINT,
             allowNull: false,
             unique: true,
             primaryKey: true,
-            autoIncrement: true,
-        
+            autoIncrement: true,        
         },
-        results: {
-            type: DataTypes.INTEGER,
-            allowNull: false
-        },
-        winner: {
+        score: {
             type: DataTypes.STRING,
-            allowNull: false,
-        },
-        loser: {
-            type: DataTypes.DATE,
-            allowNull: false,
-        },
-        b_number: {
-            type: DataTypes.INTEGER,
             allowNull: false
-        }
+         }
     },
     {
         timestamps: false,

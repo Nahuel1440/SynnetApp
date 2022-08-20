@@ -33,6 +33,7 @@ router.post("/:dni", async (req, res) => {
       kick_serve_control,
       game_strategy,
     });
+
     let id = newScore.dataValues.id_score;
 
     let user = await User.findAll();
@@ -50,7 +51,7 @@ router.post("/:dni", async (req, res) => {
         );
       }
     });
-    category();
+    category(id);
     res.status(200).send("Sent!");
   } catch (err) {
     console.log(err);
